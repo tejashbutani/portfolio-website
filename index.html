@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Desktop Nav Bar Section -->
+
+  <nav id="desktop-nav">
+    <div class="logo">&lt;/&gt;</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hamburger Nav Section -->
+
+  <nav id="hamburger-nav">
+    <div class="logo">&lt;/&gt;</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Tejash Butani profile picture" />
+    </div>
+    <div class="section__text">
+      <h1 class="title">Hi, I'm Tejash Butani</h1>
+      <div class="text_animate">
+        <h3>Mobile App Developer & Designer</h3>
+      </div>
+      <p class="p3">I am Mobile App Developer rooted in India, also wearing the hat of an App Designer on the side.
+        Exploring the synergy of code and design, I bring forth mobile applications that marry functionality with
+        aesthetics. Join me on a journey where innovation meets user-centric design.</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="location.href='./#contact'">Let's Talk</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+
+  <section id="about" class="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About <span>Me</span></h1>
+
+    <div class="pic_div">
+      <div class="about-pic">
+        <img src="./assets/abt.jpg" alt="Profile picture" />
+        <span class="circle-spin"></span>
+      </div>
+    </div>
+
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="neumorph-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon" />
+          <h2>Education</h2>
+          </br></br>
+          <h3>B.Tech in Computer Science & Engineering from a prestigious 'NAAC A++' certified University. Completed
+            comprehensive studies in Computer Science & Engineering, mastering programming, algorithms, and systems, and
+            honing problem-solving skills through practical projects.</h3>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="neumorph-container">
+          <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+          <h2>Experience</h2>
+          </br></br>
+          <h3>6 Years of Experience in Development & Designing.</h3>
+          <h3>• 1 Year of Experience in Designing UI of Mobile Application.</h3>
+          <h3>• 2 Years of Experience in Android App Development using JAVA.</h3>
+          <h3>• 3 Years of Experience in Software Development using Flutter Framework.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+
+    <div style="text-align: center;">
+      <lottie-player src="https://lottie.host/effa60b0-fee7-4d59-ae26-9932eb615ea4/mNGrj3nxVV.json"
+        background="transparent" speed="1" style="width: 300px; height: 300px; margin: auto;" loop
+        autoplay></lottie-player>
+    </div>
+
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="neumorph-container">
+          <img src="./assets/technology.png" alt="Technology icon" class="icon" />
+          <h2>Development & Technologies</h2>
+          </br></br>
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>JAVA</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Android App Development</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Dart</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Flutter</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Product Development</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Firebase</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Web Dashboard Development</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="neumorph-container">
+          <img src="./assets/tools.png" alt="Tools icon" class="icon" />
+          <h2>Design & Tools</h2>
+          </br></br>
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Git</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Github</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Postman</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Codemagic</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Balsamiq</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Adobe Illustrator</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="horizontal-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Figma</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div class="sub-experience-section">
+                <h3>Adobe Photoshop</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    </br></br>
+    <div class="carousel-container">
+
+      <div class="image-container">
+        <div class="carousel-slide">
+          <img src="./assets/project-1.png" alt="project 1">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-2.png" alt="project 2">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-3.png" alt="project 3">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-4.png" alt="project 4">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-5.png" alt="project 5">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-6.png" alt="project 6">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-7.png" alt="project 7">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-8.png" alt="project 8">
+        </div>
+        <div class="carousel-slide">
+          <img src="./assets/project-9.png" alt="project 9">
+        </div>
+      </div>
+
+      <div class="rectangle">
+        <div class="txt-div">
+        <p class="projects_p1" id="project_title_txt">CYFO ANTI-HACK APP</p>
+        <a href="https://apps.apple.com/in/app/cyfo-anti-hack/id6450753806" id="project_link_txt"><p class="projects_p3" id="project_link_btn">View in Store ↗</p></a>
+      </div>
+      <div class="btn-div">
+        <button id="prevBtn"><i class="fa fa-arrow-left fa-lg"></i></button>
+        <button id="nextBtn"><i class="fa fa-arrow-right fa-lg"></i></button>
+      </svg></button>
+      </div>
+      </div>
+
+    </div>
+  
+    </div>
+    </section>
+
+  <!-- Contact me Section -->
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact <span>Me</span></h1>
+    <div class="contact-info-upper-container">
+
+      <div class="contact-info-container">
+        <a href="mailto:tejasbutani78@gmail.com">
+          <div class="neumorph-container-email">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
+            <div style="width: 10px;"></div>
+            <h3>tejasbutani78@gmail.com</h3>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="contact-info-container">
+        <a href="https://www.linkedin.com/in/tejashbutani/">
+          <div class="neumorph-container-social_round">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-info-container">
+        <a href="https://github.com/tejashbutani/">
+          <div class="neumorph-container-social_round">
+            <img src="./assets/github.png" alt="Github icon" class="icon contact-icon" />
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-info-container">
+        <a href="https://twitter.com/Tejash_butani/">
+          <div class="neumorph-container-social_round">
+            <img src="./assets/twitterx.png" alt="twitterx icon" class="icon contact-icon" />
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-info-container">
+        <a href="https://instagram.com/tejash_butani/">
+          <div class="neumorph-container-social_round">
+            <img src="./assets/instagram.png" alt="instagram icon" class="icon contact-icon" />
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
