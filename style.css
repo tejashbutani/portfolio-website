@@ -11,6 +11,10 @@ body {
   font-family: "League Spartan";
   background-color: rgb(32, 37, 43);
   color: rgb(32, 211, 145);
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: center;
 }
 
 html {
@@ -38,9 +42,8 @@ nav,
 nav {
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
-  margin-left: 60px;
-  margin-right: 60px;
+  padding: 24px;
+  border: 2px solid rgb(32, 211, 145);
 }
 
 .nav-links {
@@ -171,6 +174,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  border: 2px solid rgb(32, 211, 145);
 }
 
 .section__pic-container {
@@ -307,10 +311,12 @@ section {
 
 /* ABOUT SECTION */
 
-.about {
+#about {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-direction: column;
+  height: 98rem;
+  border: 2px solid rgb(32, 211, 145);
 }
 
 .pic_div {
@@ -414,7 +420,11 @@ span {
 }
 
 #experience {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 98rem;
+  border: 2px solid rgb(32, 211, 145);
 }
 
 .experience-sub-title {
@@ -484,33 +494,16 @@ article {
 /* PROJECTS SECTION */
 
 #projects {
-  position: relative;
-}
-
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
-}
-
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
-}
-
-.project-title {
-  margin: 1rem;
-  color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  height: 98vh;
+  border: 2px solid rgb(32, 211, 145);
 }
 
 .carousel-container {
   position: relative;
+  height: 747px;
+  width: 1428px;
   margin: 0 auto;
+  border: 2px solid rgb(216, 151, 11);
 }
 
 .carousel-slide {
@@ -552,9 +545,8 @@ article {
 
 .rectangle {
   position: relative;
-  top: 0px;
-  left: 0px; 
-  width: 100%; 
+  margin: 0 auto;
+  width: 1428px; 
   height: auto; 
   background-color: rgb(32, 37, 43);
   display: flex;
@@ -610,11 +602,11 @@ article {
 /* CONTACT */
 
 #contact {
+  height: 98vh;
   display: flex;
   justify-content: start;
   flex-direction: column;
-  padding-top: 4rem;
-  height: 180vh;
+  border: 2px solid rgb(32, 211, 145);
 }
 
 .neumorph-container-social_round {
@@ -645,7 +637,7 @@ article {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
-  padding-top: 20vh;
+  padding-top: 20rem;
 }
 
 .contact-info-container {

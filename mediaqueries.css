@@ -1,31 +1,135 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 2000px) {
+  nav {
+    justify-content: space-between;
+    width: 90rem;
+    align-items: center;
+    padding: 48px;
+  }
+
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: 50rem;
+    width: 100rem;
+    margin-bottom: 2rem;
   }
 
   #about {
-    height: 90vh;
-    margin-bottom: 6rem;
+    height: 55rem;
+    width: 100rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    padding: 0px;
   }
 
   #experience {
-    height: 97vh;
-    margin-bottom: 6rem;
-  }
-
-  #contact {
-    height: 90vh;
-    margin-bottom: 6rem;
+    height: 55rem;
+    width: 100rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    padding: 0px;
   }
 
   #projects {
-    height: 95vh;
-    margin-bottom: 6rem;
+    height: 65rem;
+    width: 100rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    padding: 0px;
+  }
+
+  #contact {
+    height: 65rem;
+    width: 100rem;
+    margin-bottom: 2rem;
+    padding: 0px;
   }
 
   .rectangle{
     width: 1430px;
+  }
+
+  .neumorph-container {
+    height: 280px;
+    width: 43rem;
+  }
+
+  .neumorph-container-exp {
+    height: 320px;
+    width: 43rem;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  nav {
+    justify-content: space-between;
+    width: 70rem;
+    align-items: center;
+    padding: 48px;
+  }
+
+  #profile {
+    height: 50rem;
+    width: 80rem;
+    margin-bottom: 2rem;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  #about {
+    height: 58rem;
+    width: 80rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  #experience {
+    height: 58rem;
+    width: 80rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  #projects {
+    height: 60rem;
+    width: 80rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  #contact {
+    height: 60rem;
+    width: 80rem;
+    margin-bottom: 2rem;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .neumorph-container {
+    height: 280px;
+    width: auto;
+  }
+
+  .neumorph-container-exp {
+    height: 320px;
+    width: auto;
+  }
+
+  .rectangle{
+    width: 1152px;
+  }
+  
+  .carousel-container {
+    height: auto;
+    width: 1150px;
+  }
+
+  .contact-info-upper-container {
+    padding-top: 15rem;
   }
 }
 
@@ -34,68 +138,87 @@
     font-size: 3rem;
   }
 
+  nav {
+    justify-content: space-between;
+    width: 60rem;
+    align-items: center;
+    padding: 48px;
+  }
+
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: 50rem;
+    width: 70rem;
   }
 
   #about {
-    height: 95vh;
-    margin-bottom: 6rem;
+    height: 54rem;
+    width: 70rem;
+    padding: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 
   #experience {
-    height: 95vh;
-    margin-bottom: 6rem;
+    height: 54rem;
+    width: 70rem;
+    padding: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 
   #projects {
-    height: 76vh;
-    margin-bottom: 6rem;
+    height: 50rem;
+    width: 70rem;
+    padding: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 
   #contact {
-    height: 90vh;
-    margin-bottom: 6rem;
+    height: 50rem;
+    width: 70rem;
+    padding: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .neumorph-container {
+    height: 280px;
+    width: auto;
+  }
+
+  .neumorph-container-exp {
+    height: 320px;
+    width: auto;
   }
 
   .rectangle{
-    width: 100%;
+    width: 1022px;
+  }
+  
+  .carousel-container {
+    height: auto;
+    width: 1020px;
+  }
+
+  .contact-info-upper-container {
+    padding-top: 12rem;
   }
 
   .about-containers {
     flex-wrap: wrap;
   }
-
-  .neumorph-container {
-    height: 280px;
-  }
-
-  .neumorph-container-exp {
-    height: 320px;
-  }
 }
 
 @media screen and (max-width: 1200px) {
 
-  #about {
-    height: 90vh;
-    margin-bottom: 6rem;
-  }
-
-  #experience {
-    height: 148vh;
-    margin-bottom: 6rem;
-  }
-
-  #projects {
-    height: 76vh;
-    margin-bottom: 6rem;
-  }
-
-  #contact {
-    height: 80vh;
-    margin-bottom: 6rem;
+  nav {
+    justify-content: space-between;
+    width: 40rem;
+    align-items: center;
+    padding: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   #desktop-nav {
@@ -104,6 +227,67 @@
 
   #hamburger-nav {
     display: flex;
+  }
+
+  #profile {
+    height: 50rem;
+    width: 50rem;
+    display: block;
+  }
+
+  #about {
+    height: 52rem;
+    width: 50rem;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  #experience {
+    height: 76rem;
+    width: 50rem;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  #projects {
+    height: 39rem;
+    width: 50rem;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  #contact {
+    height: 40rem;
+    width: 50rem;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .neumorph-container {
+    height: 290px;
+    width: auto;
+  }
+
+  .neumorph-container-exp {
+    height: 300px;
+    width: auto;
+  }
+
+  .rectangle{
+    width: 752px;
+  }
+  
+  .carousel-container {
+    height: auto;
+    width: 750px;
+  }
+
+  .contact-info-upper-container {
+    padding-top: 10rem;
   }
 
   .title {
@@ -134,42 +318,24 @@
     }
   }
 
-  .neumorph-container {
-    height: 280px;
-  }
-
-  .neumorph-container-exp {
-    height: 320px;
-  }
-
   .experience-details-container {
     display: flex;
     padding-top: 36px;
     flex-direction: column;
   }
 
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-
-  #profile,
   .section-container {
     display: block;
   }
 
-  .arrow {
-    display: none;
-  }
-
-  section,
+  /* section,
   .section-container {
     height: fit-content;
   }
 
   section {
     margin: 0 5%;
-  }
+  } */
 
   .section__pic-container {
     width: 275px;
@@ -193,32 +359,52 @@
 }
 
 @media screen and (max-width: 800px) {
+
+  nav {
+    justify-content: space-between;
+    width: 27rem;
+    align-items: center;
+    padding: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  #profile {
+    height: 45rem;
+    width: 37rem;
+  }
+
   #about {
-    height: 115vh;
-    margin-bottom: 6rem;
+    height: 58rem;
+    width: 37rem;
   }
 
   #experience {
-    height: 142vh;
-    margin-bottom: 6rem;
+    height: 76rem;
+    width: 37rem;
   }
 
   #projects {
-    height: 56vh;
-    margin-bottom: 6rem;
+    height: 32rem;
+    width: 37rem;
   }
 
   #contact {
-    height: 80vh;
-    margin-bottom: 6rem;
+    height: 40rem;
+    width: 37rem;
   }
 
-  #desktop-nav {
-    display: none;
+  .rectangle{
+    width: 542px;
+  }
+  
+  .carousel-container {
+    height: auto;
+    width: 540px;
   }
 
-  #hamburger-nav {
-    display: flex;
+  .contact-info-upper-container {
+    padding-top: 10rem;
   }
 
   .title {
@@ -250,8 +436,8 @@
   }
 
   .neumorph-container {
-    height: 200px;
-    padding: 24px;
+    height: 210px;
+    padding: 16px;
   }
 
   .about-details-container {
@@ -261,46 +447,23 @@
   }
 
   .neumorph-container-exp {
-    height: 320px;
+    height: 300px;
   }
-
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-
-  #profile,
-  .section-container {
-    display: block;
-  }
-
-  .arrow {
-    display: none;
-  }
-
-  section,
-  .section-container {
-    height: fit-content;
-  }
-
-  section {
-    margin: 0 5%;
-  }
-
+ 
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 220px;
+    height: 220px;
     margin: 0 auto 2rem;
   }
 
   .about-pic {
-    width: 275px;
-    height: 275px;
+    width: 220px;
+    height: 220px;
   }
 
   .about-pic .circle-spin {
-    width: 275px;
-    height: 275px;
+    width: 220px;
+    height: 220px;
   }
 
   .about-containers {
@@ -317,34 +480,62 @@
     font-size: 16px;
   }
 
+  .p3 {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
 
+  nav {
+    justify-content: space-between;
+    width: 18rem;
+    align-items: center;
+    padding: 24px;
+  }
+
+  #profile {
+    height: 42rem;
+    width: 22rem;
+    padding: 8px;
+  }
+
   #about {
-    height: 107vh;
-    margin-bottom: 6rem;
+    height: 55rem;
+    width: 22rem;
+    padding: 8px;
   }
 
   #experience {
-    height: 157vh;
-    margin-bottom: 6rem;
+    height: 76rem;
+    width: 22rem;
+    padding: 8px;
   }
 
   #projects {
-    height: 36vh;
-    margin-bottom: 6rem;
+    height: 22rem;
+    width: 22rem;
+    padding: 8px;
   }
 
   #contact {
-    height: 260vh;
-    margin-bottom: 6rem;
+    height: 40rem;
+    width: 22rem;
+    padding: 8px;
   }
 
-  nav {
-    height: 10vh;
-    margin-left: 20px;
-    margin-right: 20px;
+  .rectangle{
+    width: 342px;
+  }
+  
+  .carousel-container {
+    height: auto;
+    width: 340px;
+  }
+
+  .contact-info-upper-container {
+    padding-top: 10rem;
   }
 
   .p3 {
@@ -373,23 +564,8 @@
     font-size: 1rem;
   }
 
-  #contact,
-  footer {
-    height: 40vh;
-  }
-
-  #profile {
-    height: 85vh;
-    margin-bottom: 0;
-  }
-
   article {
     font-size: 1rem;
-  }
-
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
   }
 
   .about-containers,
@@ -418,14 +594,15 @@
   }
 
   .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 2rem;
+    margin-bottom: 20px;
   }
 
   .about-pic {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
 
   .about-pic img {
@@ -433,8 +610,8 @@
   }
 
   .about-pic .circle-spin {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
 
   .section__text__p2 {
@@ -450,7 +627,7 @@
   }
 
   .neumorph-container-exp {
-    height: 380px;
+    height: 340px;
     padding-right: 8px;
     padding-left: 8px;
   }
