@@ -43,7 +43,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 24px;
-  border: 2px solid rgb(32, 211, 145);
 }
 
 .nav-links {
@@ -174,7 +173,6 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-  border: 2px solid rgb(32, 211, 145);
 }
 
 .section__pic-container {
@@ -315,8 +313,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 98rem;
-  border: 2px solid rgb(32, 211, 145);
+  height: 98rem; 
 }
 
 .pic_div {
@@ -424,7 +421,6 @@ span {
   justify-content: center;
   flex-direction: column;
   height: 98rem;
-  border: 2px solid rgb(32, 211, 145);
 }
 
 .experience-sub-title {
@@ -495,7 +491,6 @@ article {
 
 #projects {
   height: 98vh;
-  border: 2px solid rgb(32, 211, 145);
 }
 
 .carousel-container {
@@ -606,7 +601,6 @@ article {
   display: flex;
   justify-content: start;
   flex-direction: column;
-  border: 2px solid rgb(32, 211, 145);
 }
 
 .neumorph-container-social_round {
