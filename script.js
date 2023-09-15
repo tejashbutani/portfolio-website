@@ -51,27 +51,27 @@ function getProjectData(index) {
         case 0:
             projectName = 'CYFO ANTI-HACK APP';
             projectLink = 'https://apps.apple.com/in/app/cyfo-anti-hack/id6450753806';
-            btnName = 'View in Store ↗';
+            btnName = 'View in Store';
             break;
         case 1:
             projectName = 'E Vidhya - Learning APP';
             projectLink = 'https://play.google.com/store/apps/details?id=com.evidhya.learningapp';
-            btnName = 'View in Store ↗';
+            btnName = 'View in Store';
             break;
         case 2:
             projectName = 'InstantUploader';
             projectLink = 'https://apps.apple.com/us/app/instantuploader/id1562937340';
-            btnName = 'View in Store ↗';
+            btnName = 'View in Store';
             break;
         case 3:
             projectName = 'Arihant Electronics';
             projectLink = 'https://play.google.com/store/apps/details?id=com.arihantelect.app.arihant_electronics';
-            btnName = 'View in Store ↗';
+            btnName = 'View in Store';
             break;
         case 4:
             projectName = 'NSDOC';
             projectLink = 'https://play.google.com/store/apps/details?id=com.nyshasolutions.nsdoc.app.nsdoc';
-            btnName = 'View in Store ↗';
+            btnName = 'View in Store';
             break;
         case 5:
             projectName = 'FlirTutor';
@@ -91,7 +91,7 @@ function getProjectData(index) {
         case 8:
             projectName = 'Tic Tac Toe';
             projectLink = 'https://play.google.com/store/apps/details?id=tejashbutani.tictactoe';
-            btnName = 'View in Store ↗';
+            btnName = 'View in Store';
             break;
         default:
             projectName = '';

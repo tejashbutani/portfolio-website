@@ -1,99 +1,510 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 2000px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
+
+  #about {
+    height: 90vh;
+    margin-bottom: 6rem;
+  }
+
+  #experience {
+    height: 93vh;
+    margin-bottom: 6rem;
+  }
+
+  #contact {
+    height: 90vh;
+    margin-bottom: 6rem;
+  }
+
+  #projects {
+    height: 95vh;
+    margin-bottom: 6rem;
+  }
+
+  .rectangle{
+    width: 1430px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  #about {
+    height: 95vh;
+    margin-bottom: 6rem;
+  }
+
+  #experience {
+    height: 95vh;
+    margin-bottom: 6rem;
+  }
+
+  #projects {
+    height: 76vh;
+    margin-bottom: 6rem;
+  }
+
+  #contact {
+    height: 90vh;
+    margin-bottom: 6rem;
+  }
+
+  .rectangle{
+    width: 100%;
+  }
+
   .about-containers {
     flex-wrap: wrap;
+  }
+
+  .neumorph-container {
+    height: 280px;
+  }
+
+  .neumorph-container-exp {
+    height: 320px;
   }
 }
 
 @media screen and (max-width: 1200px) {
+
+  #about {
+    height: 90vh;
+    margin-bottom: 6rem;
+  }
+
+  #experience {
+    height: 148vh;
+    margin-bottom: 6rem;
+  }
+
+  #projects {
+    height: 76vh;
+    margin-bottom: 6rem;
+  }
+
+  #contact {
+    height: 80vh;
+    margin-bottom: 6rem;
+  }
+
   #desktop-nav {
     display: none;
   }
+
   #hamburger-nav {
     display: flex;
   }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section__text .text_animate {
+    width: 18.3rem;
+  }
+
+  .section__text .text_animate h3 {
+    font-size: 1.3rem;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+  }
+
+  @keyframes homeBgText {
+
+    0%,
+    10%,
+    100% {
+      background-position: -18.3rem 0;
+    }
+
+    65%,
+    85% {
+      background-position: 0 0;
+    }
+  }
+
+  .neumorph-container {
+    height: 280px;
+  }
+
+  .neumorph-container-exp {
+    height: 320px;
+  }
+
+  .experience-details-container {
+    display: flex;
+    padding-top: 36px;
+    flex-direction: column;
+  }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
+
   #profile,
   .section-container {
     display: block;
   }
+
   .arrow {
     display: none;
   }
+
   section,
   .section-container {
     height: fit-content;
   }
+
   section {
     margin: 0 5%;
   }
+
   .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
+  .about-pic {
+    width: 275px;
+    height: 275px;
+  }
+
+  .about-pic .circle-spin {
+    width: 275px;
+    height: 275px;
+  }
+
   .about-containers {
     margin-top: 0;
   }
 }
 
+@media screen and (max-width: 800px) {
+  #about {
+    height: 115vh;
+    margin-bottom: 6rem;
+  }
+
+  #experience {
+    height: 142vh;
+    margin-bottom: 6rem;
+  }
+
+  #projects {
+    height: 56vh;
+    margin-bottom: 6rem;
+  }
+
+  #contact {
+    height: 80vh;
+    margin-bottom: 6rem;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section__text .text_animate {
+    width: 18.3rem;
+  }
+
+  .section__text .text_animate h3 {
+    font-size: 1.3rem;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+  }
+
+  @keyframes homeBgText {
+
+    0%,
+    10%,
+    100% {
+      background-position: -18.3rem 0;
+    }
+
+    65%,
+    85% {
+      background-position: 0 0;
+    }
+  }
+
+  .neumorph-container {
+    height: 200px;
+    padding: 24px;
+  }
+
+  .about-details-container {
+    display: flex;
+    padding-top: 36px;
+    flex-direction: column;
+  }
+
+  .neumorph-container-exp {
+    height: 320px;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-pic {
+    width: 275px;
+    height: 275px;
+  }
+
+  .about-pic .circle-spin {
+    width: 275px;
+    height: 275px;
+  }
+
+  .about-containers {
+    margin-top: 0;
+  }
+
+  .projects_p1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .projects_p3 {
+    padding-left: 12px;
+    font-size: 16px;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
+
+  #about {
+    height: 107vh;
+    margin-bottom: 6rem;
+  }
+
+  #experience {
+    height: 157vh;
+    margin-bottom: 6rem;
+  }
+
+  #projects {
+    height: 36vh;
+    margin-bottom: 6rem;
+  }
+
+  #contact {
+    height: 260vh;
+    margin-bottom: 6rem;
+  }
+
+  nav {
+    height: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .p3 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .neumorph-container {
+    height: 240px;
+    padding: 12px;
+  }
+
+  .about-details-container {
+    display: flex;
+    padding-top: 36px;
+    flex-direction: column;
+  }
+
+  .about-containers h3 {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .section__text__p1 {
+    padding-bottom: 8px;
+    font-size: 1rem;
+  }
+
   #contact,
   footer {
     height: 40vh;
   }
+
   #profile {
-    height: 83vh;
+    height: 85vh;
     margin-bottom: 0;
   }
+
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
-    margin: 0;
-  }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .experience-sub-title {
     font-size: 1.25rem;
   }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
+
+  .about-pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-pic img {
+    border: white 0.1rem solid;
+  }
+
+  .about-pic .circle-spin {
+    width: 200px;
+    height: 200px;
+  }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
+  }
+
+  .neumorph-container-exp {
+    height: 380px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  article {
+    margin-top: 12px;
+    flex: 0 0 calc(30% - 10px);
+  }
+
+  .experience-containers h3 {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .experience-details-container {
+    padding-top: 0px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+
+  .contact-info-container {
+    margin: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .neumorph-container-social_round {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 10px;
+  }
+
+  .contact-info-email-container {
+    padding-bottom: 12rem;
+  }
+
+  .projects_p1 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+  }
+
+  .projects_p3 {
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+  }
+
+  #prevBtn,
+  #nextBtn {
+    display: none;
   }
 }
